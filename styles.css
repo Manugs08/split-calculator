@@ -83,6 +83,7 @@ input[type="number"]::-webkit-inner-spin-button {
 
 label{
     font-size: 12px;
+    font-weight: 700;
 }
 
 .tip-conteiner{
@@ -219,6 +220,12 @@ button{
 .tip-amount-conteiner,.total-conteiner{
     gap:30px;
     align-items: end;
+}
+.grid-tip-conteiner{
+    display: grid;
+    grid-template-columns: repeat(3,104px);
+    grid-template-rows: repeat(2,auto);
+    gap:8px
 }
 }
 
